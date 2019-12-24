@@ -25,12 +25,12 @@ function Home() {
           </a>
         </li>
       </ul>
-      <div class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-12 text-center">
-            <h1>Hi! I'm <span class="myName">Spencer Lyons</span></h1>
-            <p class="subHome">An aspiring web developer</p>
-            <a href="#about"><button class="learnMore">Learn More</button></a>
+      <div className="container h-100">
+        <div className="row h-100 align-items-center">
+          <div className="col-12 text-center">
+            <h1>Hi! I'm <span className="myName">Spencer Lyons</span></h1>
+            <p className="subHome">An aspiring web developer</p>
+            <a href="#about"><button className="learnMore">Learn More</button></a>
           </div>
         </div>
       </div>

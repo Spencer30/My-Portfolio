@@ -187,21 +187,69 @@ h4 {
     object-fit: cover;
 }
 
+
+/* Card Section CSS: */
 .card-group {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    justify-content: center;
     
 }
 
-.card-img-top {
+/* .card-img-top {
     height: 15.625rem;
-}
+} */
 
 .card-img {
     height: 15.625rem;
+    width: 25.625rem;
     border-radius: 0;
+    
+} 
+
+.card {
+    height: 15.625rem;
+    width: 25.625rem;
+    border-radius: 0;
+    
+
+}
+
+.card-img {
+    padding-bottom: 0;
+}
+
+.hover-text {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 25%;
+    color: pink;
+}
+
+.card-img-overlay {
+    opacity: 0;
+    height: 15.625rem;
+    width: 25.625rem;
+
+}
+
+.card-img-overlay:hover, .card-img-overlay:active{
+    color: white;
+    background-color: black;
+    opacity: 80%;
+}
+
+.card-title {
+    margin-top: 25%;
+}
+
+.card-title {
+    color: #00dae6;
+}
+
+.card-group>.card {
+    flex: none;
 }
 
 #projects {
@@ -223,40 +271,6 @@ h4 {
     padding-bottom: 4.5rem;
 }
 
-.card {
-    border-radius: 0;
-
-}
-
-.card-img {
-    padding-bottom: 0;
-}
-
-.hover-text {
-    position: absolute;
-    margin-left: 25%;
-    margin-top: 25%;
-    color: pink;
-}
-
-.card-img-overlay {
-    opacity: 0;
-
-}
-
-.card-img-overlay:hover, .card-img-overlay:active{
-    color: white;
-    background-color: black;
-    opacity: 80%;
-}
-
-.card-title {
-    margin-top: 25%;
-}
-
-.card-title {
-    color: #00dae6;
-}
 
 @media only screen 
   and (min-device-width: 319px) 
@@ -313,6 +327,10 @@ h4 {
     
     .icon {
         margin-top: 2rem;
+    }
+
+    .card-group {
+        flex: none;
     }
 }
 
