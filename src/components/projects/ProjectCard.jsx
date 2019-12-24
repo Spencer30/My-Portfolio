@@ -6,7 +6,7 @@ function ProjectCard(props) {
     <div className="card bg-dark text-white">
       <img className="card-img" src={props.img} alt="my projects" />
       <div className="card-img-overlay">
-        <a href={props.link} target="_blank">
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
           <h5 className="card-title">{props.title}</h5>
         </a>
         <small>
