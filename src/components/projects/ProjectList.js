@@ -87,20 +87,4 @@ const projects = [
 
 export default projects;
 
-/*
-
-     
-          
-
-              <div className="card bg-dark text-white">
-                  <img className="card-img" src={require('../images/tindog.PNG')} alt="Card image" />
-                  <div className="card-img-overlay">
-                    <a href="https://spencer30.github.io/tindog/" target="_blank"><h5 className="card-title">Tindog</h5></a>
-                    <small><p className="card-text">Udemy project. Tinder for dogs. Built with html and css.</p></small>
-                  </div>
-                </div>
-        </div>
-        </div>
-
-*/
 
