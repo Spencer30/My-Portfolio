@@ -3,7 +3,8 @@ import React from "react";
 function AboutMe() {
     return (
     
-    <div id="about" className="container">
+    <div id="about" >
+      <div className= 'container'>
       <div className="row">
         <div className="col-lg-4 me aboutSection">
           <img className="mePic " src={require('../images/me2.png')} alt="avatar"/>
@@ -39,6 +40,7 @@ function AboutMe() {
           </article>
         </div>
       </div>
+    </div>
     </div>
   
     )
