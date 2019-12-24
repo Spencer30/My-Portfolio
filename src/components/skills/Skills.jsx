@@ -36,28 +36,28 @@ function Skills() {
     <h2 className="tableHeading">Current Progress:</h2>
       <div className='container'>
         <div className='row starRows'>
-          <div className='col-lg-6 contentLeft'>
+          <div className='col-lg-6 col-md-6 col-sm-1 contentLeft'>
             <Skill name='HTML' stars={4}/>
           </div>
-          <div className='col-lg-6 contentRight'>
+          <div className='col-lg-6 col-md-6 col-sm-1 contentRight'>
             <Skill name='CSS' stars={4} />
           </div>
         </div>
 
         <div className='row starRows'>
-          <div className='col-lg-6 contentLeft'>
+          <div className='col-lg-6 col-md-6 col-sm-1 contentLeft'>
             <Skill name='JavaScript' stars={3}/>
           </div>
-          <div className='col-lg-6 contentRight'>
+          <div className='col-lg-6 col-md-6 col-sm-1 contentRight'>
             <Skill name='Node' stars={2} />
           </div>
         </div>
 
         <div className='row starRows'>
-          <div className='col-lg-6 contentLeft'>
+          <div className='col-lg-6 col-md-6 contentLeft'>
             <Skill name='React' stars={1}/>
           </div>
-          <div className='col-lg-6 contentRight'>
+          <div className='col-lg-6 col-md-6 contentRight'>
             <Skill name='Angular' stars={1} />
           </div>
         </div>

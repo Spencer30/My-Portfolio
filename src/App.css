@@ -317,8 +317,10 @@ h4 {
     }
 
     .mePic {
-        height: 75%;
-        margin-left: 19%;
+        height: 80%;
+        padding: 0;
+        margin: 0;
+        right: 5%;
         /* top: 1rem; */
     }
 
@@ -344,7 +346,7 @@ h4 {
     }
     
     .skills {
-        height: 1300px;
+        height: 900px;
     }
     
     #projects {
@@ -357,6 +359,29 @@ h4 {
 
     .card-group {
         flex: none;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .contentLeft {
+        right: 0rem;
+    }
+    .contentRight {
+        left: 0rem;
+        margin-top: 2.5rem;
+    }
+
+    .star {
+        width: 2.0rem;
+        left: 5rem;
+    }
+
+    .starRows {
+        margin-top: 2.5rem;
+    }
+
+    .skillType {
+        font-size: 1.5rem;
     }
 }
 
@@ -391,4 +416,25 @@ h4 {
     .icon {
         margin-top: 2rem;
     }
+
+    .contentLeft {
+        right: 0rem;
+    }
+    .contentRight {
+        left: 1rem;
+    }
+
+    .star {
+        width: 2.0rem;
+        left: 5rem;
+    }
+
+    .starRows {
+        margin-top: 2.5rem;
+    }
+
+    #skills {
+        height: 700px;
+    }
+    
 }
