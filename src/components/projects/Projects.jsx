@@ -24,7 +24,7 @@ function Projects() {
     </div>  
     </div>
     
-    <div className="card-group col-lg-3">
+    <div className="card-group justify-content-center col-lg-3">
         {ProjectList.map(createCard)}  
       </div>
       </div>
