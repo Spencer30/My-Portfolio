@@ -123,8 +123,31 @@ h4 {
 }
 
 .star {
-    width: 15%;
+    width: 2.5rem;
+    margin-left: .09rem;
+    position: relative;
+    vertical-align: text-top;
+    left: 8rem;
 
+}
+
+.starRows {
+    margin-top: 3.5rem;
+}
+
+.contentLeft {
+    right: 7.5rem;
+}
+
+.contentRight {
+   left: 7.5rem;
+}
+
+.skillType {
+    font-size: 2.1rem;
+    text-align: left;
+    margin-right: 10.0rem;
+    position: absolute;
 }
 
 .languageHeadings {
@@ -142,8 +165,8 @@ h4 {
 
 .tableHeading {
     margin-top: 5rem;
+    margin-bottom: 2.5rem
 }
-
 #contact {
     background-image: url("./images/night2.jpg");
     max-width: 100%;
@@ -192,7 +215,7 @@ h4 {
 
 /* Card Section CSS: */
 .card-group {
-    max-width: 100%;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
