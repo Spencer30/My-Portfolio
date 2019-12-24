@@ -2,16 +2,17 @@ import React from "react";
 import ProjectCard from './ProjectCard'
 import ProjectList from './ProjectList'
 
-// function createCard() {
-//   return <ProjectCard 
-//     key={ProjectList.id}
-//     id={ProjectList.id}
-//     title={ProjectList.title}
-//     description = {ProjectList.description}
-//     img={ProjectList.img}
-//     link={ProjectList.link}
-//   />
-// }
+function createCard(card) {
+  return (<ProjectCard 
+    key={card.id}
+    id={card.id}
+    title={card.title}
+    description = {card.description}
+    img={card.img}
+    link={card.link}
+    alt = 'project'
+  />)
+}
 
 function Projects() {
     return  <div id="projects">
@@ -24,13 +25,7 @@ function Projects() {
     </div>
     
     <div className="card-group col-lg-3">
-        {/* {ProjectList.map(createCard)} */}
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        
-        
+        {ProjectList.map(createCard)}  
       </div>
       </div>
 
