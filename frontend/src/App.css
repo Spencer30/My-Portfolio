@@ -253,17 +253,13 @@ h4 {
 }
 
 .card-img-overlay {
-    opacity: 0;
+    opacity: .8;
+    background-color: black;
     height: 15.625rem;
     width: 25.625rem;
 
 }
 
-.card-img-overlay:hover, .card-img-overlay:active{
-    color: white;
-    background-color: black;
-    opacity: 80%;
-}
 
 .card-title {
     margin-top: 25%;
