@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e5aea8e.chunk.css",
+    "main.js": "/static/js/main.3408d268.chunk.js",
+    "main.js.map": "/static/js/main.3408d268.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.712fe5d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.712fe5d1.js.map",
+    "static/js/2.274b8263.chunk.js": "/static/js/2.274b8263.chunk.js",
+    "static/js/2.274b8263.chunk.js.map": "/static/js/2.274b8263.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f7f2f13531a1731faa9d27bc86ec6b94.js": "/precache-manifest.f7f2f13531a1731faa9d27bc86ec6b94.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0e5aea8e.chunk.css.map": "/static/css/main.0e5aea8e.chunk.css.map",
+    "static/js/2.274b8263.chunk.js.LICENSE": "/static/js/2.274b8263.chunk.js.LICENSE",
+    "static/media/8ball.PNG": "/static/media/8ball.56c47762.PNG",
+    "static/media/bitcoin.PNG": "/static/media/bitcoin.ebe676af.PNG",
+    "static/media/blackjack.PNG": "/static/media/blackjack.3339b185.PNG",
+    "static/media/blog.PNG": "/static/media/blog.703679b8.PNG",
+    "static/media/bowl.PNG": "/static/media/bowl.05c02ccf.PNG",
+    "static/media/budget.PNG": "/static/media/budget.7992498a.PNG",
+    "static/media/dice.PNG": "/static/media/dice.5a33ca8c.PNG",
+    "static/media/drum.PNG": "/static/media/drum.9f3db630.PNG",
+    "static/media/me2.png": "/static/media/me2.1f61ed9c.png",
+    "static/media/App.css": "/static/media/waterfall.7d179d5d.jpg",
+    "static/media/simon.PNG": "/static/media/simon.cab0c0c3.PNG",
+    "static/media/socialup.PNG": "/static/media/socialup.bb389702.PNG",
+    "static/media/tindog.PNG": "/static/media/tindog.f0c1de2a.PNG",
+    "static/media/todo.PNG": "/static/media/todo.6b2e1157.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.712fe5d1.js",
+    "static/js/2.274b8263.chunk.js",
+    "static/css/main.0e5aea8e.chunk.css",
+    "static/js/main.3408d268.chunk.js"
+  ]
+}
