@@ -5,9 +5,9 @@ const front = `C:/Users/sjl8r/Desktop/Coding/my-portfolio/frontend`;
 let port = process.env.PORT;
 
 
-app.use(express.static(path.join(front, 'build')));
+app.use(express.static(path.join(__dirname, './frontend/build')));
 app.get('/', function(req, res) {
-  res.sendFile(path.join(front, 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, './frontend/build', 'index.html'));
 });
 
 
