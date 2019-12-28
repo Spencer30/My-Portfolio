@@ -2,12 +2,21 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const front = `C:/Users/sjl8r/Desktop/Coding/my-portfolio/frontend`;
+let port = process.env.PORT;
+
+
+if (process.env.NODE_ENV === 'production') {
 app.use(express.static(path.join(front, 'build')));
 app.get('/', function(req, res) {
   res.sendFile(path.join(front, 'build', 'index.html'));
 });
+} else {
+  app.use(express.static(path.join(front, 'build')));
+  app.get('/', function(req, res) {
+  res.sendFile(path.join(front, 'build', 'index.html'));
+});
+}
 
-let port = process.env.PORT;
 if (port == null || port == "") {
   port = 9000;
 }
