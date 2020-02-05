@@ -55,7 +55,7 @@ function Skills() {
 
         <div className='row starRows'>
           <div className='col-lg-6 col-md-6 contentLeft'>
-            <Skill name='React' stars={1}/>
+            <Skill name='React' stars={2}/>
           </div>
           <div className='col-lg-6 col-md-6 contentRight'>
             <Skill name='Angular' stars={1} />

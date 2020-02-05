@@ -66,23 +66,24 @@ h4 {
 
 .mePic {
     transform: rotate(90deg);
-    height: 48%;
-    margin-right: 25rem;
-    margin-left: 0;
+    height: 60%;
+    width: 100%;
     position: relative;
-    right: 8.3rem;
-    top: 3.7rem;
-    border-radius: 100%;
+    border-radius: 75%;
+    border: #00dae6 solid 8px;
+    right: 4.5rem;
+    top:2.5rem;
 }
 
 #about {
     background-color: #fff7f3;
+    background-image: url("https://www.transparenttextures.com/patterns/elastoplast.png");
 }
 
 .aboutSection {
     margin-top: 10rem;
     text-align: center;
-    height: 43.75rem;
+    height: 40.75rem;
 }
 
 .myName {
@@ -275,6 +276,7 @@ h4 {
 
 #projects {
     background-color: #fff7f3;
+    background-image: url("https://www.transparenttextures.com/patterns/elastoplast.png");
     text-align: center;
     padding-bottom: 7.5rem;
 }
@@ -313,11 +315,12 @@ h4 {
     }
 
     .mePic {
-        height: 80%;
+        height: 65%;
+        width: 65%;
         padding: 0;
-        margin: 0;
-        right: 5%;
-        /* top: 1rem; */
+        margin-top: 3.5rem;
+        right:0;
+        top:0;
     }
 
     .aboutSection {
@@ -328,7 +331,6 @@ h4 {
     }
 
     .aboutArticle {
-        top: 5rem;
         height: 970px;
     }
 
@@ -410,7 +412,8 @@ h4 {
   and (-webkit-min-device-pixel-ratio: 1) {
     .mePic {
         margin-top: 2.5rem;
-        height: 55%;
+        height: 65%;
+        width:65%;
         margin-left: 25%;
         /* top: 1rem; */
     }
