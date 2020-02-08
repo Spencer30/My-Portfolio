@@ -1,8 +1,8 @@
 import React from "react";
 import Skill from "../skills/Skill"
 
-function Skills() {
-    return <div id="skills" className="container mySkills">
+function Skills(props) {
+    return <div id="skills" style={{display:props.display ? "none" : "block"}} className="container mySkills">
     <h2 className="skillsTitle">My Skills</h2>
     <div className="row icons">
       <div className="col-lg-4">

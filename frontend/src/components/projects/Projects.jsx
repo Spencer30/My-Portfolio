@@ -14,8 +14,8 @@ function createCard(card) {
   />)
 }
 
-function Projects() {
-    return  <div id="projects">
+function Projects(props) {
+    return  <div id="projects" style={{display:props.display ? "none" : "block"}}>
     <div className="container proj">
     <div className="row">
       <div className="col-lg-12">

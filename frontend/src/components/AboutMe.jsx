@@ -1,9 +1,9 @@
 import React from "react";
 
-function AboutMe() {
+function AboutMe(props) {
     return (
     
-    <div id="about" >
+    <div id="about" style={{display:props.display ? "none" : "block"}}>
       <div className= 'container'>
       <div className="row">
         <div className="col-lg-4 me aboutSection">
