@@ -45,9 +45,9 @@ function returnStar(props) {
 function Skill(props) {
     return <div>
         <span>
-            <h2 className='skillType'>
+            {/* <h2 className='skillType'>
                 {props.name}
-            </h2>   
+            </h2>    */}
             {returnStar(props)}
                 </span>
         </div>

@@ -16,6 +16,7 @@ html,body
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 4.5rem;
 }
 
 h1 {
@@ -70,19 +71,18 @@ h4 {
     width: 100%;
     position: relative;
     border-radius: 75%;
-    border: white solid 8px;
+    border: #00dae6 solid 3px;
     right: 4.5rem;
     top:2.5rem;
 }
 
 #about {
-    background-color: rgb(207, 238, 238);
+    background-color:white;
 }
 
 .aboutSection {
-    margin-top: 10rem;
     text-align: center;
-    height: 40.75rem;
+    margin-bottom: 4.0rem;
 }
 
 .myName {
@@ -94,7 +94,8 @@ h4 {
 }
 
 h4 {
-    color: black;
+    color: #00dae6;
+    font-weight: lighter;
 }
 
 .mySkills {
@@ -105,13 +106,14 @@ h4 {
 }
 
 .skillPara {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3.5rem;
 }
-
+/* 
 .icons {
     margin-top: 5rem;
-}
+} */
 
 .icon {
     margin-bottom: 2rem;
@@ -119,20 +121,27 @@ h4 {
 
 .skillsTitle {
     padding-top: 2rem;
-    margin-bottom: -1rem;
+}
+
+.skillType{
+    margin-right: 20rem;
 }
 
 .star {
     width: 2.5rem;
     margin-left: .09rem;
-    position: relative;
+    position: inherit;
+    float: right;
     vertical-align: text-top;
-    left: 8rem;
 
 }
+table{
+    min-width: 0 !important;
+    /* font-family: 'Montserrat', sans-serif !important; */
+}
 
-.starRows {
-    margin-top: 3.5rem;
+.MuiTableCell-body{
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 .contentLeft {
@@ -274,7 +283,7 @@ h4 {
 }
 
 #projects {
-    background-color: rgb(207, 238, 238);
+    background-color: white;
     text-align: center;
     padding-bottom: 7.5rem;
 }
@@ -293,6 +302,42 @@ h4 {
     padding-bottom: 1.5rem;
 }
 
+.hr-text {
+    line-height: 2rem;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #00dae6;
+}
+.hr-text:before {
+      content: '';
+      /* // use the linear-gradient for the fading effect
+      // use a solid background color for a solid bar */
+      background: linear-gradient(to right, transparent, #00dae6, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+.hr-text:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+  
+      padding: 0 .5em;
+      line-height: 1.5em;
+      color: #818078;
+      background-color: #fcfcfa;
+    }
+  
 
 @media only screen 
   and (min-device-width: 319px) 
@@ -302,6 +347,10 @@ h4 {
     h1 {
         font-size: 2.5rem;
         margin-bottom: 2.5rem;
+    }
+    .hr-text{
+        font-size: 2rem;
+        margin-bottom: 2rem;
     }
     
     .subHome {
@@ -316,7 +365,6 @@ h4 {
         height: 65%;
         width: 65%;
         padding: 0;
-        margin-top: 3.5rem;
         right:0;
         top:0;
     }
@@ -329,7 +377,7 @@ h4 {
     }
 
     .aboutArticle {
-        height: 56.125rem
+        margin-bottom: 2.5rem;
     }
 
     .me {

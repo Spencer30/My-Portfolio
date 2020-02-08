@@ -27,13 +27,13 @@ const projects = [
     img: require('../../images/socialup.PNG'),
     link: 'http://www.getsocialup.com/'
   },
-  {
-    id: 5,
-    title: 'Simon Says',
-    description: 'Udemy Project. Using jQuery to create the old children\'s game Simon Says.',
-    img: require('../../images/simon.PNG'),
-    link: 'https://spencer30.github.io/simon-says/'
-  },
+  // {
+  //   id: 5,
+  //   title: 'Simon Says',
+  //   description: 'Udemy Project. Using jQuery to create the old children\'s game Simon Says.',
+  //   img: require('../../images/simon.PNG'),
+  //   link: 'https://spencer30.github.io/simon-says/'
+  // },
   {
     id: 6,
     title: 'Dice Game',
@@ -48,41 +48,41 @@ const projects = [
     img: require('../../images/budget.PNG'),
     link: 'https://spencer30.github.io/budgety/'
   },
-  {
-    id: 8,
-    title: 'Todo List',
-    description: 'Udemy project. A simlpe todo list. Built with node, body-parser, express, mongoDB and mongoose.',
-    img: require('../../images/todo.PNG'),
-    link: 'https://basic-todolist.herokuapp.com/'
-  },
-  {
-    id: 9,
-    title: 'Blog with Database',
-    description: 'Udemy project. A blog website created with node, express, ejs, mongoDB and mongoose.',
-    img: require('../../images/blog.PNG'),
-    link: 'https://blog-with-database.herokuapp.com/'
-  },
-  {
-    id: 10,
-    title: 'Crypto Converter',
-    description: 'Udemy Project. Simple crypto currency converter using node and api to pull in currency data.',
-    img: require('../../images/bitcoin.PNG'),
-    link: 'https://my-crypto-ticker.herokuapp.com/'
-  },
-  {
-    id: 11,
-    title: 'Drum Kit',
-    description: 'Udemy javascript project. Play the drums with a click or key press.',
-    img: require('../../images/drum.PNG'),
-    link: 'https://spencer30.github.io/drum-kit/'
-  },
-  {
-    id: 12,
-    title: 'Tindog',
-    description: 'Udemy project. Tinder for dogs. Built with html and css.',
-    img: require('../../images/tindog.PNG'),
-    link: 'https://spencer30.github.io/tindog/'
-  }
+  // {
+  //   id: 8,
+  //   title: 'Todo List',
+  //   description: 'Udemy project. A simlpe todo list. Built with node, body-parser, express, mongoDB and mongoose.',
+  //   img: require('../../images/todo.PNG'),
+  //   link: 'https://basic-todolist.herokuapp.com/'
+  // },
+  // {
+  //   id: 9,
+  //   title: 'Blog with Database',
+  //   description: 'Udemy project. A blog website created with node, express, ejs, mongoDB and mongoose.',
+  //   img: require('../../images/blog.PNG'),
+  //   link: 'https://blog-with-database.herokuapp.com/'
+  // },
+  // {
+  //   id: 10,
+  //   title: 'Crypto Converter',
+  //   description: 'Udemy Project. Simple crypto currency converter using node and api to pull in currency data.',
+  //   img: require('../../images/bitcoin.PNG'),
+  //   link: 'https://my-crypto-ticker.herokuapp.com/'
+  // },
+  // {
+  //   id: 11,
+  //   title: 'Drum Kit',
+  //   description: 'Udemy javascript project. Play the drums with a click or key press.',
+  //   img: require('../../images/drum.PNG'),
+  //   link: 'https://spencer30.github.io/drum-kit/'
+  // },
+  // {
+  //   id: 12,
+  //   title: 'Tindog',
+  //   description: 'Udemy project. Tinder for dogs. Built with html and css.',
+  //   img: require('../../images/tindog.PNG'),
+  //   link: 'https://spencer30.github.io/tindog/'
+  // }
 ];
 
 export default projects;

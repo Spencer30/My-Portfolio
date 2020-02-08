@@ -19,7 +19,7 @@ function Projects(props) {
     <div className="container proj">
     <div className="row">
       <div className="col-lg-12">
-        <h2 className="project-title">Projects</h2>
+      <hr class="hr-text" data-content="Projects"></hr>
       </div>
     </div>  
     </div>
