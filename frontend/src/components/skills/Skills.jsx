@@ -22,12 +22,14 @@ const rows = [
   createData('HTML', '', '', '',<Skill stars={4} />),
   createData('JavaScript', '', '', '',<Skill stars={3} />),
   createData('React', '', '', '',<Skill stars={2} />),
+  createData('Angular', '', '', '',<Skill stars={1} />),
 ];
 
 const rows2 = [
   createData('CSS', '', '', '',<Skill stars={4} />),
   createData('Node', '', '', '',<Skill stars={2} />),
   createData('Java', '', '', '',<Skill stars={2} />),
+  createData('Databases', '', '', '',<Skill stars={2} />),
 ];
 
 function Skills(props) {

@@ -14,8 +14,10 @@ function createTweetCard(tweetCard){
 }
 
 function TweetDeck(props){
-    return <div style={{display:props.display ? "block" : "none"}}className="tweetContainer">
+    return <div className="containAllTweet">
+    <div style={{display:props.display ? "block" : "none"}}className="tweetContainer">
         {portfolioInfo.map(createTweetCard)}
+    </div>
     </div>
 }
 

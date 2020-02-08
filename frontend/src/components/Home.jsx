@@ -2,7 +2,7 @@ import React from "react";
 
 function Home(props) {
   return (
-    <header className="bgImage" >
+    <header className="bgImage" style={{marginBottom:props.display ? "0": "4.5rem"}}>
       <ul className="nav justify-content-end" style={{visibility:props.display ? "hidden" : "visible"}}>
         <li className="nav-item">
           <a className="nav-link " href="#about">

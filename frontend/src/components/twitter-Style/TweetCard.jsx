@@ -10,6 +10,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
+import { useState } from 'react';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -33,7 +34,11 @@ const useStyles = makeStyles(theme => ({
 
 function TweetCard(props){
     const classes = useStyles();
+    const [heart, setHeart] = useState(false);
 
+    function handleHeartClick(){
+      setHeart((prev) => {return !prev});
+    }
   
     return (
       <Card className={classes.root}>
@@ -59,7 +64,7 @@ function TweetCard(props){
         </CardContent>
         <CardActions disableSpacing>
           <IconButton aria-label="add to favorites">
-            <FavoriteIcon />
+            <FavoriteIcon onClick={handleHeartClick} style={{color: heart ? "red" : "gray"}}/>
           </IconButton>
         </CardActions>
       </Card>
