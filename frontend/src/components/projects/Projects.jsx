@@ -14,15 +14,14 @@ function createCard(card) {
   />)
 }
 
-function Projects() {
-    return  <div id="projects">
-    <div className="container proj">
+function Projects(props) {
+    return  <div id="projects" className="container proj" style={{display:props.display ? "none" : "block"}}>
+    
     <div className="row">
       <div className="col-lg-12">
-        <h2 className="project-title">Projects</h2>
+      <hr class="hr-text" data-content="Projects"></hr>
       </div>
     </div>  
-    </div>
     
     <div className="card-group justify-content-center col-lg-3">
         {ProjectList.map(createCard)}  

@@ -2,8 +2,8 @@ import React from 'react';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 
-function Contact() {
-    return <div id="contact" className="container">
+function Contact(props) {
+    return <div id="contact" className="container" style={{display:props.display ? "none" : "block"}}>
     <div className="row">
         <div className="col-lg-12 contactMe">
             <h2>Contact Me</h2>

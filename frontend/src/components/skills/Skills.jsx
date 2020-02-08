@@ -1,9 +1,42 @@
 import React from "react";
 import Skill from "../skills/Skill"
+import { makeStyles } from '@material-ui/core/styles';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
 
-function Skills() {
-    return <div id="skills" className="container mySkills">
-    <h2 className="skillsTitle">My Skills</h2>
+const useStyles = makeStyles({
+  table: {
+    minWidth: 650,
+  },
+});
+
+function createData(name, emptyspac1, emptyspac2, emptyspac3, star) {
+  return { name, emptyspac1, emptyspac2, emptyspac3, star };
+}
+
+const rows = [
+  createData('HTML', '', '', '',<Skill stars={4} />),
+  createData('JavaScript', '', '', '',<Skill stars={3} />),
+  createData('React', '', '', '',<Skill stars={2} />),
+  createData('Angular', '', '', '',<Skill stars={1} />),
+];
+
+const rows2 = [
+  createData('CSS', '', '', '',<Skill stars={4} />),
+  createData('Node', '', '', '',<Skill stars={2} />),
+  createData('Java', '', '', '',<Skill stars={2} />),
+  createData('Databases', '', '', '',<Skill stars={2} />),
+];
+
+function Skills(props) {
+  const classes = useStyles();
+    return <div id="skills" style={{display:props.display ? "none" : "block"}} className="container mySkills">
+    {/* <h2 className="skillsTitle">My Skills</h2> */}
+    <hr class="hr-text" data-content="My Skills"></hr>
     <div className="row icons">
       <div className="col-lg-4">
         <img className="icon" src={require('../../images/jigsaw.png')} alt="jigsaw puzzle" />
@@ -34,7 +67,58 @@ function Skills() {
       </div>
     </div>
     <h2 className="tableHeading">Current Progress:</h2>
-      <div className='container'>
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-6">
+        
+  <TableContainer component={Paper}>
+    <Table className={classes.table} aria-label="simple table">
+      <TableBody>
+        {rows.map(row => (
+          <TableRow key={row.name}>
+            <TableCell component="th" scope="row">
+              {row.name}
+            </TableCell>
+            <TableCell align="right">{row.skill}</TableCell>
+            <TableCell align="right">{row.star}</TableCell>
+
+          </TableRow>
+        ))}
+      </TableBody>
+    </Table>
+  </TableContainer>
+          {/* <table>
+            <tr><Skill name="HTML" stars={4} /></tr>
+            <tr><Skill name='JavaScript' stars={3}/></tr>
+            <tr><Skill name='React' stars={2}/></tr>
+          </table> */}
+        </div>
+        <div className="col-lg-6">
+        <TableContainer component={Paper}>
+    <Table className={classes.table} aria-label="simple table">
+      <TableBody>
+        {rows2.map(row => (
+          <TableRow key={row.name}>
+            <TableCell component="th" scope="row">
+              {row.name}
+            </TableCell>
+            <TableCell align="right">{row.skill}</TableCell>
+            <TableCell align="right">{row.star}</TableCell>
+
+          </TableRow>
+        ))}
+      </TableBody>
+    </Table>
+  </TableContainer>
+          {/* <table>
+            <tr><Skill name="CSS" stars={4} /></tr>
+            <tr><Skill name='Node.js' stars={2}/></tr>
+            <tr><Skill name='Java' stars={2}/></tr>
+          </table> */}
+        </div>
+      </div>      
+    </div>
+      {/* <div className='container'>
         <div className='row starRows'>
           <div className='col-lg-6 col-md-6 col-sm-1 contentLeft'>
             <Skill name='HTML' stars={4}/>
@@ -55,14 +139,14 @@ function Skills() {
 
         <div className='row starRows'>
           <div className='col-lg-6 col-md-6 contentLeft'>
-            <Skill name='React' stars={1}/>
+            <Skill name='React' stars={2}/>
           </div>
           <div className='col-lg-6 col-md-6 contentRight'>
             <Skill name='Angular' stars={1} />
           </div>
         </div>
         
-      </div>
+      </div> */}
 </div>
 }
 

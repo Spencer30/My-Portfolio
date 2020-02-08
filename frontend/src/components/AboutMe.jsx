@@ -1,16 +1,16 @@
 import React from "react";
 
-function AboutMe() {
+function AboutMe(props) {
     return (
     
-    <div id="about" >
+    <div id="about" style={{display:props.display ? "none" : "block"}}>
+      <hr class="hr-text" data-content="A Little About Me"></hr>
       <div className= 'container'>
       <div className="row">
         <div className="col-lg-4 me aboutSection">
           <img className="mePic " src={require('../images/me2.png')} alt="avatar"/>
         </div>
         <div className="col-lg-8 aboutArticle aboutSection">
-          <h2 className="meTitle">A Little About Me</h2>
           <article className="aboutMe">
             <h4>Back Story</h4>
             <p>
