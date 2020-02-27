@@ -48,7 +48,7 @@ function Skills(props) {
         </p>
       </div>
       <div className="col-lg-4">
-        <img className="icon" src={require('../../images/report.png')} alt='report with graphs' />
+        <img className="icon" src={require('../../images/statistics.png')} alt='report with graphs' />
         <h4>Business Acumen</h4>
         <p className="skillPara">
           My experience has given me the opportunituy to work with a wide range of clients,
@@ -57,8 +57,8 @@ function Skills(props) {
         </p>
       </div>
       <div className="col-lg-4">
-        <img className="icon" src={require('../../images/code.png')} alt='computer with code' />
-        <h4>Coding</h4>
+        <img className="icon" src={require('../../images/html-coding.png')} alt='computer with code' />
+        <h4>Coding</h4> 
         <p className="skillPara">
           I have been teaching myself to code for the last six months and have
           developed a strong passion for it. Major problems can be solved with
