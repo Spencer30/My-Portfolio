@@ -73,6 +73,14 @@ const portfolioInfo = [
   },
   {
     id:10,
+    img:require('../../images/newsApi.PNG'),
+    isImg:true,
+    title:"Check Out Some of My Projects",
+    subTitle:"Search The News",
+    info:"React App that retrieves data from a news api based on a user's search. This was my first time creating class based components as I am more used to functional components. This was my first project using an api. The project was styled with Semantic UI."
+  },
+  {
+    id:11,
     img:require('../../images/blackjack.PNG'),
     isImg:true,
     title:"Check Out Some of My Projects",
@@ -80,7 +88,7 @@ const portfolioInfo = [
     info:"Built with plain HTML and just a little bit of CSS so the major focus would be vanilla Javascript. I enjoyed creating this game. Really made me realize the value of building code through unit tests as I had to refactor the code multiple times"
   },
   {
-    id:11,
+    id:12,
     img:require('../../images/bowl.PNG'),
     isImg:true,
     title:"Check Out Some of My Projects",
@@ -88,7 +96,7 @@ const portfolioInfo = [
     info:"Built with plain HTML, some CSS and vanilla javascript. This was my first heavly Javascript program I created. Definitely struggled through some pains. Required a number of code refactoring and even started from scratch a few times.In the end, I felt I defintely gained better grasp on Javascript and was pretty proud to finally complete it"
   },
   {
-    id:12,
+    id:13,
     img:require('../../images/8ball.PNG'),
     isImg:true,
     title:"Check Out Some of My Projects",
@@ -96,7 +104,7 @@ const portfolioInfo = [
     info:"Built with plain HTML, some CSS and vanilla javascript. Just a simple program that brings a childhood toy to the web."
   },
   {
-    id:13,
+    id:14,
     img:require('../../images/socialup.PNG'),
     isImg:true,
     title:"Check Out Some of My Projects",
@@ -104,7 +112,7 @@ const portfolioInfo = [
     info:"Before going into web development, I was an entreprenuer looking to help people find true connections in their existing groups. Although, it didn't work out in the end, it lead me into a whole new world with coding. When I was able to create our site, I knew I would be able to to do this. Just takes determination and patience."
   },
   {
-    id:14,
+    id:15,
     img:require('../../images/me2.png'),
     isImg:false,
     title:"Thanks for Reading!",
