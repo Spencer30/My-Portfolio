@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
 
 
 if (port == null || port == "") {
-  port = 9000;
+  port = 8000;
 }
 
 app.listen(port, () => {

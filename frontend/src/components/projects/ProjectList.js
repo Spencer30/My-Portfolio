@@ -4,7 +4,7 @@ const projects = [
     title: 'Search The News',
     description: 'Personal Project built with React. Simple app retrieves news from an api based on an user\'s search. Using Semantic UI to style the project. ',
     img: require('../../images/newsApi.PNG'),
-    link: 'https://spencer30.github.io/search_the_news/'
+    link: 'https://search-the-news.herokuapp.com/'
   },
   {
     id: 12,
