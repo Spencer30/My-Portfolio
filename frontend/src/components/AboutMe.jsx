@@ -4,7 +4,7 @@ function AboutMe(props) {
     return (
     
     <div id="about" style={{display:props.display ? "none" : "block"}}>
-      <hr class="hr-text" data-content="A Little About Me"></hr>
+      <hr className="hr-text" data-content="A Little About Me"></hr>
       <div className= 'container'>
       <div className="row">
         <div className="col-lg-4 me aboutSection">
@@ -21,9 +21,7 @@ function AboutMe(props) {
               industry and a run at entrepreneurship, has led me to become an
               aspiring web developer. Never found any passion in
               accounting as I have with coding. I love problem solving and
-              coding has given me the chance to utilize those skills. As I
-              continue to learn, my goal is to land a full time web developer
-              job by end of 2020.
+              coding has given me the chance to expand on those skills.
             </p>
             <br />
             <h4>My Passions</h4>
@@ -36,6 +34,11 @@ function AboutMe(props) {
               sport that once you can constitent enough that it becomes very
               addicting to play. I have a few ideas how technology could help
               the sport and would love to be able to code those out someday.
+            </p>
+            <br />
+            <h4>What I'm Looking For</h4>
+            <p>
+              I'm currently seeking a role as a full time web developer. My strength is with JavaScript so looking to utilize those strengths either working with React or Node. My business backgorund has given me the chance to see both sides of the equation between business and technology teams. I understand the high cost that comes with breakdown of communication between the two. I believe I can help fill those gaps and make sure challenges from both sides are communicated effectively.
             </p>
           </article>
         </div>

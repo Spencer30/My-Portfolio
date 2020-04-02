@@ -28,6 +28,20 @@ h1 {
 h4 {
     font-weight: bolder;
 }
+.skillList {
+    list-style-type: circle;
+    list-style-position: outside;
+    list-style-image: none;
+    color: #00dae6;
+    font-size: 20px;
+}
+
+.skillBullets {
+    padding: .5rem;
+    margin-left: 3.5rem; 
+    margin-right: 3.5rem;
+    margin-bottom: 2rem;  
+}
 
 .subHome {
     color: white;
@@ -100,7 +114,7 @@ h4 {
 
 .mySkills {
     /* background-color: lightgray; */
-    height: 62.5rem;
+    height: 100%;
     max-width: 100%;
     text-align: center;
 }
@@ -117,6 +131,7 @@ h4 {
 
 .icon {
     margin-bottom: 2rem;
+    width:65px;
 }
 
 .skillsTitle {
@@ -394,10 +409,6 @@ table{
         height: 700px;
     }
     
-    #projects {
-        margin-top: 70rem;
-    }
-    
     .icon {
         margin-top: 2rem;
     }
@@ -489,7 +500,6 @@ table{
     }
 
     #projects {
-        margin-top: 80rem;
         position: relative;
     }
 
@@ -514,7 +524,7 @@ table{
     }
 
     #skills {
-        height: 700px;
+        height: 100%;
     }
     
 }
@@ -533,3 +543,27 @@ table{
 button{
     outline: none;
 }
+
+.star {
+    animation: blinker 2s infinite;
+}
+.star1 {
+    animation: blinker 1.5s infinite;
+}
+
+.star2 {
+    animation: blinker 2.5s infinite;
+}
+
+.star3 {
+    animation: blinker 4s infinite;
+}
+
+@keyframes blinker {
+    0% {
+      color:rgba(39, 37, 37, .1);
+    }
+    100% {
+      color: white;
+    }
+  }

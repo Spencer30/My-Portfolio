@@ -63,8 +63,8 @@ function TweetCard(props){
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
-          <IconButton aria-label="add to favorites">
-            <FavoriteIcon onClick={handleHeartClick} style={{color: heart ? "red" : "gray"}}/>
+          <IconButton aria-label="add to favorites" onClick={handleHeartClick}>
+            <FavoriteIcon  style={{color: heart ? "red" : "gray"}}/>
           </IconButton>
         </CardActions>
       </Card>

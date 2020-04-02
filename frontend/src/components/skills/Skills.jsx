@@ -36,7 +36,7 @@ function Skills(props) {
   const classes = useStyles();
     return <div id="skills" style={{display:props.display ? "none" : "block"}} className="container mySkills">
     {/* <h2 className="skillsTitle">My Skills</h2> */}
-    <hr class="hr-text" data-content="My Skills"></hr>
+    <hr className="hr-text" data-content="My Skills"></hr>
     <div className="row icons">
       <div className="col-lg-4">
         <img className="icon" src={require('../../images/jigsaw.png')} alt="jigsaw puzzle" />
@@ -66,8 +66,33 @@ function Skills(props) {
         </p>
       </div>
     </div>
-    <h2 className="tableHeading">Current Progress:</h2>
-    <div className="container">
+    <h3 className="tableHeading">I'm comfortble wokring with these technologies:</h3>
+    <div style={{display: 'flex', flexWrap:'wrap', justifyContent:'center'}}>
+      <ul className="skillList" style={{display: 'flex', flexWrap:'wrap', justifyContent:'flex-start'}}>
+        <li className="skillBullets"><span style={{color:'black'}} >HTML</span></li>
+        <li className="skillBullets"><span style={{color:'black'}} >CSS</span></li>
+        <li className="skillBullets"><span style={{color:'black'}} >JavaScript</span></li>
+        <li className="skillBullets"><span style={{color:'black'}} >React</span></li>
+        <li className="skillBullets"><span style={{color:'black'}} >Node</span></li>
+        <li className="skillBullets"><span style={{color:'black'}} >SQL</span></li>
+      </ul>
+    </div>
+    <h3 className="tableHeading">I'm currently learning:</h3>
+    <div style={{display: 'flex', flexWrap:'wrap', justifyContent:'center', marginBottom:'3.5rem'}}>
+      <ul className="skillList" style={{display: 'flex', flexWrap:'wrap', justifyContent:'flex-start'}}>
+        <li className="skillBullets"><span style={{color:'black'}} >React Native</span></li>
+        <li className="skillBullets"><span style={{color:'black'}} >Redux</span></li>
+        <li className="skillBullets"><span style={{color:'black'}} >Java</span></li>
+      </ul>
+    </div>
+</div>
+}
+
+export default Skills;
+
+
+/*
+<div className="container">
       <div className="row">
         <div className="col-lg-6">
         
@@ -91,63 +116,59 @@ function Skills(props) {
             <tr><Skill name="HTML" stars={4} /></tr>
             <tr><Skill name='JavaScript' stars={3}/></tr>
             <tr><Skill name='React' stars={2}/></tr>
-          </table> */}
-        </div>
-        <div className="col-lg-6">
-        <TableContainer component={Paper}>
-    <Table className={classes.table} aria-label="simple table">
-      <TableBody>
-        {rows2.map(row => (
-          <TableRow key={row.name}>
-            <TableCell component="th" scope="row">
-              {row.name}
-            </TableCell>
-            <TableCell align="right">{row.skill}</TableCell>
-            <TableCell align="right">{row.star}</TableCell>
-
-          </TableRow>
-        ))}
-      </TableBody>
-    </Table>
-  </TableContainer>
-          {/* <table>
-            <tr><Skill name="CSS" stars={4} /></tr>
-            <tr><Skill name='Node.js' stars={2}/></tr>
-            <tr><Skill name='Java' stars={2}/></tr>
-          </table> */}
-        </div>
-      </div>      
-    </div>
-      {/* <div className='container'>
-        <div className='row starRows'>
-          <div className='col-lg-6 col-md-6 col-sm-1 contentLeft'>
-            <Skill name='HTML' stars={4}/>
+          </table> */
+    //       </div>
+    //       <div className="col-lg-6">
+    //       <TableContainer component={Paper}>
+    //   <Table className={classes.table} aria-label="simple table">
+    //     <TableBody>
+    //       {rows2.map(row => (
+    //         <TableRow key={row.name}>
+    //           <TableCell component="th" scope="row">
+    //             {row.name}
+    //           </TableCell>
+    //           <TableCell align="right">{row.skill}</TableCell>
+    //           <TableCell align="right">{row.star}</TableCell>
+  
+    //         </TableRow>
+    //       ))}
+    //     </TableBody>
+    //   </Table>
+    // </TableContainer>
+    //         {/* <table>
+    //           <tr><Skill name="CSS" stars={4} /></tr>
+    //           <tr><Skill name='Node.js' stars={2}/></tr>
+    //           <tr><Skill name='Java' stars={2}/></tr>
+    //         </table> */}
+    //       </div>
+    //     </div>      
+    //   </div>
+        /* <div className='container'>
+          <div className='row starRows'>
+            <div className='col-lg-6 col-md-6 col-sm-1 contentLeft'>
+              <Skill name='HTML' stars={4}/>
+            </div>
+            <div className='col-lg-6 col-md-6 col-sm-1 contentRight'>
+              <Skill name='CSS' stars={4} />
+            </div>
           </div>
-          <div className='col-lg-6 col-md-6 col-sm-1 contentRight'>
-            <Skill name='CSS' stars={4} />
+  
+          <div className='row starRows'>
+            <div className='col-lg-6 col-md-6 col-sm-1 contentLeft'>
+              <Skill name='JavaScript' stars={3}/>
+            </div>
+            <div className='col-lg-6 col-md-6 col-sm-1 contentRight'>
+              <Skill name='Node' stars={2} />
+            </div>
           </div>
-        </div>
-
-        <div className='row starRows'>
-          <div className='col-lg-6 col-md-6 col-sm-1 contentLeft'>
-            <Skill name='JavaScript' stars={3}/>
+  
+          <div className='row starRows'>
+            <div className='col-lg-6 col-md-6 contentLeft'>
+              <Skill name='React' stars={2}/>
+            </div>
+            <div className='col-lg-6 col-md-6 contentRight'>
+              <Skill name='Angular' stars={1} />
+            </div>
           </div>
-          <div className='col-lg-6 col-md-6 col-sm-1 contentRight'>
-            <Skill name='Node' stars={2} />
-          </div>
-        </div>
-
-        <div className='row starRows'>
-          <div className='col-lg-6 col-md-6 contentLeft'>
-            <Skill name='React' stars={2}/>
-          </div>
-          <div className='col-lg-6 col-md-6 contentRight'>
-            <Skill name='Angular' stars={1} />
-          </div>
-        </div>
-        
-      </div> */}
-</div>
-}
-
-export default Skills;
+          
+        </div> */

@@ -72,6 +72,14 @@ const portfolioInfo = [
     info:"Currently, through LaunchCode, I'm learning Java. Java has introduced me to the concepts of OOP. My capstone project that I'm building will be using both React and Java. Still figuring what type of database that I will incorporate."
   },
   {
+    id:16,
+    img:require('../../images/bowlingBuddy.PNG'),
+    isImg:true,
+    title:"Check Out Some of My Projects",
+    subTitle:"Bowling Buddy",
+    info:"My biggest project to date. Decided to build it with React, Node and a SQL database. I learned so much more about React and really fell in love with the library. I plan on using it going forward in most of my projects and have taken the steps to start learning React Native."
+  },
+  {
     id:10,
     img:require('../../images/newsApi.PNG'),
     isImg:true,
@@ -118,7 +126,7 @@ const portfolioInfo = [
     title:"Thanks for Reading!",
     subTitle:"Contact Me",
     info:"Feel free to connect with me. My email: sjl8r8@gmail.com"
-  },
+  }
 ]
 
 export default portfolioInfo;

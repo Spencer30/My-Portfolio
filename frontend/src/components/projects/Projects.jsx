@@ -19,7 +19,7 @@ function Projects(props) {
     
     <div className="row">
       <div className="col-lg-12">
-      <hr class="hr-text" data-content="Projects"></hr>
+      <hr className="hr-text" data-content="Projects"></hr>
       </div>
     </div>  
     
