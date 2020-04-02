@@ -1,12 +1,12 @@
 import React from "react";
 import Skill from "../skills/Skill"
 import { makeStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
+// import Table from '@material-ui/core/Table';
+// import TableBody from '@material-ui/core/TableBody';
+// import TableCell from '@material-ui/core/TableCell';
+// import TableContainer from '@material-ui/core/TableContainer';
+// import TableRow from '@material-ui/core/TableRow';
+// import Paper from '@material-ui/core/Paper';
 
 const useStyles = makeStyles({
   table: {
@@ -18,22 +18,22 @@ function createData(name, emptyspac1, emptyspac2, emptyspac3, star) {
   return { name, emptyspac1, emptyspac2, emptyspac3, star };
 }
 
-const rows = [
-  createData('HTML', '', '', '',<Skill stars={4} />),
-  createData('JavaScript', '', '', '',<Skill stars={3} />),
-  createData('React', '', '', '',<Skill stars={2} />),
-  createData('Angular', '', '', '',<Skill stars={1} />),
-];
+// const rows = [
+//   createData('HTML', '', '', '',<Skill stars={4} />),
+//   createData('JavaScript', '', '', '',<Skill stars={3} />),
+//   createData('React', '', '', '',<Skill stars={2} />),
+//   createData('Angular', '', '', '',<Skill stars={1} />),
+// ];
 
-const rows2 = [
-  createData('CSS', '', '', '',<Skill stars={4} />),
-  createData('Node', '', '', '',<Skill stars={2} />),
-  createData('Java', '', '', '',<Skill stars={2} />),
-  createData('Databases', '', '', '',<Skill stars={2} />),
-];
+// const rows2 = [
+//   createData('CSS', '', '', '',<Skill stars={4} />),
+//   createData('Node', '', '', '',<Skill stars={2} />),
+//   createData('Java', '', '', '',<Skill stars={2} />),
+//   createData('Databases', '', '', '',<Skill stars={2} />),
+// ];
 
 function Skills(props) {
-  const classes = useStyles();
+  // const classes = useStyles();
     return <div id="skills" style={{display:props.display ? "none" : "block"}} className="container mySkills">
     {/* <h2 className="skillsTitle">My Skills</h2> */}
     <hr className="hr-text" data-content="My Skills"></hr>
@@ -66,7 +66,7 @@ function Skills(props) {
         </p>
       </div>
     </div>
-    <h3 className="tableHeading">I'm comfortble wokring with these technologies:</h3>
+    <h3 className="tableHeading">I'm comfortble working with these technologies:</h3>
     <div style={{display: 'flex', flexWrap:'wrap', justifyContent:'center'}}>
       <ul className="skillList" style={{display: 'flex', flexWrap:'wrap', justifyContent:'flex-start'}}>
         <li className="skillBullets"><span style={{color:'black'}} >HTML</span></li>
