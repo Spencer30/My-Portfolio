@@ -9,6 +9,7 @@ function Contact(props) {
         <p className="star1" style={{color:'white', position:'absolute', left:'45rem', top:'13rem'}}>.</p>
         <p className="star2" style={{color:'white', position:'absolute', left:'60rem', top:'10rem'}}>.</p>
         <p className="star3" style={{color:'white', position:'absolute', left:'20rem', top:'30rem'}}>.</p>
+        <p className="star4" style={{color:'white', position:'absolute', left:'80rem', top:'15rem'}}>.</p>
 
         <div className="col-lg-12 contactMe">
             <h2>Contact Me</h2>

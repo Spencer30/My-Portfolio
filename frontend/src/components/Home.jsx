@@ -28,8 +28,8 @@ function Home(props) {
       <div className="container h-100">
         <div className="row h-100 align-items-center">
           <div className="col-12 text-center">
-            <h1>Hi! I'm <span className="myName">Spencer Lyons</span></h1>
-            <p className="subHome">An aspiring web developer</p>
+            <h1 className="titleText">Hi! I'm <span className="myName">Spencer Lyons</span></h1>
+            <p className="subHome">A software developer</p>
             <button onClick={props.tweetClick} className="learnMore">{props.display ? "View Normal" : "View As Twitter Style"}</button>
           </div>
         </div>

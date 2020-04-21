@@ -5,7 +5,7 @@ const portfolioInfo = [
     isImg: true,
     title:"This is my back story",
     subTitle:"About Me",
-    info:"I grew up in Kansas City and went to the University of Missouri for college. After college, I left Kansas City for the East Coast. I landed in Philadelphia where I worked in the investment accounting industry. After 7+ years in the investment accounting industry and a run at entrepreneurship, has led me to become an aspiring web developer."
+    info:"I grew up in Kansas City and went to the University of Missouri for college. After college, I left Kansas City for the East Coast. I landed in Philadelphia where I worked in the investment accounting industry. After 7+ years in the investment accounting industry and a run at entrepreneurship, has led me to become a software developer."
   },
   {
     id:2,
@@ -13,23 +13,39 @@ const portfolioInfo = [
     isImg:false,
     title:"This is my back story",
     subTitle:"About Me",
-    info:"Never found any passion in accounting as I have with coding. I love problem solving and coding has given me the chance to utilize those skills. As I continue to learn, my goal is to land a full time web developer job by end of 2020."
+    info:"Never found any passion in accounting as I have with coding. I love problem solving and coding has given me the chance to utilize those skills. As I continue to learn, my goal is to land a full time developer job by end of 2020."
   },
+  // {
+  //   id:3,
+  //   img:require('../../images/8ball.PNG'),
+  //   isImg:false,
+  //   title:"My Passions in Life",
+  //   subTitle:"About Me",
+  //   info:"I absolutely love sports. I grew up playing and watching football, basketball, baseball, bowling and golf. To this day, I still enjoying watching them all but unforunately don't have the time to actually play most of them."
+  // },
   {
     id:3,
     img:require('../../images/8ball.PNG'),
     isImg:false,
-    title:"My Passions in Life",
+    title:"LaunchCode Graduate",
     subTitle:"About Me",
-    info:"I absolutely love sports. I grew up playing and watching football, basketball, baseball, bowling and golf. To this day, I still enjoying watching them all but unforunately don't have the time to actually play most of them."
+    info:"I graduated from LaunchCode's LC101 program and currently in their LiftOff program. LaunchCode is a national nonprofit offering free tech education and job placement opportunities to bring new people from all backgrounds into the tech field and reshape the way employers think about hiring."
   },
+  // {
+  //   id:4,
+  //   img:require('../../images/bowl.PNG'),
+  //   isImg:false,
+  //   title:"My Passions in Life",
+  //   subTitle:"About Me",
+  //   info:"I have recently gotten back into bowling though and joined a league this past fall. It's a sport that once you can constitent enough that it becomes very addicting to play. I have a few ideas how technology could help the sport and would love to be able to code those out someday."
+  // },
   {
     id:4,
     img:require('../../images/bowl.PNG'),
     isImg:false,
-    title:"My Passions in Life",
+    title:"LaunchCode Graduate",
     subTitle:"About Me",
-    info:"I have recently gotten back into bowling though and joined a league this past fall. It's a sport that once you can constitent enough that it becomes very addicting to play. I have a few ideas how technology could help the sport and would love to be able to code those out someday."
+    info:"LaunchCode is a highly competitive program. The amount of value you get of the program is truly amazing and I'm very thankful to get that experience. Looking to take what I've learned through it and apply it to the real world."
   },
   {
     id:5,

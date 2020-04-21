@@ -39,7 +39,7 @@ function Skills(props) {
     <hr className="hr-text" data-content="My Skills"></hr>
     <div className="row icons">
       <div className="col-lg-4">
-        <img className="icon" src={require('../../images/jigsaw.png')} alt="jigsaw puzzle" />
+        <img className="icon" src={require('../../images/jigsaw1.png')} alt="jigsaw puzzle" />
         <h4>Problem Solving</h4>
         <p className="skillPara">
           I understand to solve a complex problem requires breaking the
@@ -48,21 +48,21 @@ function Skills(props) {
         </p>
       </div>
       <div className="col-lg-4">
-        <img className="icon" src={require('../../images/statistics.png')} alt='report with graphs' />
+        <img className="icon" src={require('../../images/report.png')} alt='report with graphs' />
         <h4>Business Acumen</h4>
         <p className="skillPara">
-          My experience has given me the opportunituy to work with a wide range of clients,
+          My experience has given me the opportunity to work with a wide range of clients,
           understand their needs and be able to effectively comminicate back
           to the team.
         </p>
       </div>
       <div className="col-lg-4">
-        <img className="icon" src={require('../../images/html-coding.png')} alt='computer with code' />
+        <img className="icon" src={require('../../images/code.png')} alt='computer with code' />
         <h4>Coding</h4> 
         <p className="skillPara">
-          I have been teaching myself to code for the last six months and have
+          I have been teaching myself to code for the last nine months and have
           developed a strong passion for it. Major problems can be solved with
-          a few lines of code. Looking to shapren and improve my skills.
+          a few lines of code. Love working with Javascript, especially React.
         </p>
       </div>
     </div>

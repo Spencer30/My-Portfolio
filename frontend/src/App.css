@@ -80,14 +80,11 @@ h4 {
 }
 
 .mePic {
-    transform: rotate(90deg);
-    height: 60%;
-    width: 100%;
+    height: 300px;
+    width: 300px;
     position: relative;
-    border-radius: 75%;
-    border: #00dae6 solid 3px;
-    right: 4.5rem;
-    top:2.5rem;
+    border-radius: 50%;
+    border: aqua solid 2px;
 }
 
 #about {
@@ -474,18 +471,16 @@ table{
 
 
 @media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1023px) 
+  and (min-width: 768px) 
+  and (max-width: 1023px) 
   and (-webkit-min-device-pixel-ratio: 1) {
-    .mePic {
-        height: 125%;
-        width:35%;
-        margin-left: auto;
-        margin-right: auto;
-        right: 0;
-        top: -2.5rem;
-        margin-bottom: 2.5rem;
+    .titleText{
+        font-size: 55px;
     }
+    .subHome {
+        font-size: 32px;
+    }
+
 
     .aboutSection {
         margin-top: 0;
@@ -529,6 +524,14 @@ table{
     
 }
 
+@media only screen 
+  and (min-width: 1023px) 
+  and (max-width: 1290px){
+      .titleText{
+          font-size: 65px;
+      }
+  } 
+
 .tweetContainer{
     margin-left: auto;
     margin-right: auto;
@@ -557,6 +560,10 @@ button{
 
 .star3 {
     animation: blinker 4s infinite;
+}
+
+.star4 {
+    animation: blinker 2.3s infinite;
 }
 
 @keyframes blinker {
