@@ -5,7 +5,7 @@ function AboutMe(props) {
     
     <div id="about" style={{display:props.display ? "none" : "block"}}>
       <hr className="hr-text" data-content="A Little About Me"></hr>
-      <div className= 'container'>
+      <div className= 'container imgCon'>
       <div className="row">
         <div className="col-lg-4 me aboutSection" style={{display: 'flex', justifyContent: 'center', alignItems:'center'}}>
           <img className="mePic " src={require('../images/profile_pic2.png')} alt="avatar"/>

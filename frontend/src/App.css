@@ -374,11 +374,24 @@ table{
     }
 
     .mePic {
-        height: 65%;
-        width: 65%;
-        padding: 0;
+        height: 250px;
+        width: 250px;
+        margin-bottom:1rem;
+        /* padding: 0;
         right:0;
-        top:0;
+        top:0; */
+    }
+    .imgCon{
+        margin-top: -2rem;
+        margin-bottom: 3.5rem;
+    }
+    .tableHeading{
+        margin-top: 0;
+        font-size: 23px;
+    }
+
+    .bgImage{
+        margin-bottom: 2.5rem !important;
     }
 
     .aboutSection {
@@ -388,10 +401,10 @@ table{
         padding-bottom: 0;
     }
 
-    .aboutArticle {
+    /* .aboutArticle {
         margin-bottom: 2.5rem;
         margin-top: -3.5rem;
-    }
+    } */
 
     .me {
         margin-top: 1.5rem;
