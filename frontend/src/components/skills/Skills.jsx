@@ -52,7 +52,7 @@ function Skills(props) {
         <h4>Business Acumen</h4>
         <p className="skillPara">
           My experience has given me the opportunity to work with a wide range of clients,
-          understand their needs and be able to effectively comminicate back
+          understand their needs and be able to effectively communicate back
           to the team.
         </p>
       </div>
@@ -60,9 +60,7 @@ function Skills(props) {
         <img className="icon" src={require('../../images/code.png')} alt='computer with code' />
         <h4>Coding</h4> 
         <p className="skillPara">
-          I have been teaching myself to code for the last nine months and have
-          developed a strong passion for it. Major problems can be solved with
-          a few lines of code. Love working with Javascript, especially React.
+        In addition to LaunchCode, I have been teaching myself to code for the last nine months and have developed a strong passion for it. Major problems can be solved with a few lines of code. I enjoy working with Javascript, especially React.
         </p>
       </div>
     </div>

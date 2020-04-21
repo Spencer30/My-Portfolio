@@ -5,7 +5,7 @@ const portfolioInfo = [
     isImg: true,
     title:"This is my back story",
     subTitle:"About Me",
-    info:"I grew up in Kansas City and went to the University of Missouri for college. After college, I left Kansas City for the East Coast. I landed in Philadelphia where I worked in the investment accounting industry. After 7+ years in the investment accounting industry and a run at entrepreneurship, has led me to become a software developer."
+    info:"I grew up in Kansas City and went to the University of Missouri for college. After college, I left Kansas City for the East Coast. I landed in Philadelphia where I worked in the investment accounting industry. After 7+ years in the investment accounting industry and a run at entrepreneurship, my experiences have led me to become a software developer."
   },
   {
     id:2,
@@ -13,7 +13,7 @@ const portfolioInfo = [
     isImg:false,
     title:"This is my back story",
     subTitle:"About Me",
-    info:"Never found any passion in accounting as I have with coding. I love problem solving and coding has given me the chance to utilize those skills. As I continue to learn, my goal is to land a full time developer job by end of 2020."
+    info:"I found more passion in coding than I have in any other industry. I love problem solving and coding has given me the chance to utilize those skills. As I continue to learn, my goal is to land a full time developer job by the end of 2020."
   },
   // {
   //   id:3,
@@ -29,7 +29,7 @@ const portfolioInfo = [
     isImg:false,
     title:"LaunchCode Graduate",
     subTitle:"About Me",
-    info:"I graduated from LaunchCode's LC101 program and currently in their LiftOff program. LaunchCode is a national nonprofit offering free tech education and job placement opportunities to bring new people from all backgrounds into the tech field and reshape the way employers think about hiring."
+    info:"I graduated from LaunchCode's LC101 program and am currently in their LiftOff program. LaunchCode is a national nonprofit offering free tech education and job placement opportunities. Their goal is to bring new people from all backgrounds into the tech field and reshape the way employers think about hiring."
   },
   // {
   //   id:4,
@@ -45,7 +45,7 @@ const portfolioInfo = [
     isImg:false,
     title:"LaunchCode Graduate",
     subTitle:"About Me",
-    info:"LaunchCode is a highly competitive program. The amount of value you get of the program is truly amazing and I'm very thankful to get that experience. Looking to take what I've learned through it and apply it to the real world."
+    info:"LaunchCode is a highly competitive program. The amount of value and education you get of the program is exceptional and I'm very thankful to get that experience. My goal is to take my knowledge and apply it to the real world."
   },
   {
     id:5,
@@ -61,7 +61,7 @@ const portfolioInfo = [
     isImg:true,
     title:"I have an unique set of skills....",
     subTitle:"Business Acumen",
-    info:"My experience has given me the opportunituy to work with a wide range of clients, understand their needs and be able to effectively comminicate back to the team."
+    info:"My experience has given me the opportunity to work with a wide range of clients, understand their needs and be able to effectively communicate back to the team."
   },
   {
     id:7,
@@ -69,14 +69,14 @@ const portfolioInfo = [
     isImg:true,
     title:"I have an unique set of skills....",
     subTitle:"Coding",
-    info:"I have been teaching myself to code for the last eight months and have developed a strong passion for it. Major problems can be solved with a few lines of code. Looking to shapren and improve my skills."
+    info:"In addition to LaunchCode, I have been teaching myself to code for the last nine months and have developed a strong passion for it. Major problems can be solved with a few lines of code. Looking to sharpen and improve my skills"
   },
   {
     id:8,
     img:require('../../images/snapshot1.PNG'),
     isImg:true,
     title:"I have an unique set of skills....",
-    subTitle:"Current Progrgess",
+    subTitle:"Current Progress",
     info:"This website is built with React and Node, utilizing some React Bootstrap and Material Ui. Getting more comfortable with using styled components as it makes the development faster and better looking UI."
   },
   {
@@ -84,7 +84,7 @@ const portfolioInfo = [
     img:require('../../images/snapshot2.PNG'),
     isImg:true,
     title:"I have an unique set of skills....",
-    subTitle:"Current Progrgess",
+    subTitle:"Current Progress",
     info:"Currently, through LaunchCode, I'm learning Java. Java has introduced me to the concepts of OOP. My capstone project that I'm building will be using both React and Java. Still figuring what type of database that I will incorporate."
   },
   {
@@ -109,7 +109,7 @@ const portfolioInfo = [
     isImg:true,
     title:"Check Out Some of My Projects",
     subTitle:"Simple BlackJack",
-    info:"Built with plain HTML and just a little bit of CSS so the major focus would be vanilla Javascript. I enjoyed creating this game. Really made me realize the value of building code through unit tests as I had to refactor the code multiple times"
+    info:"Built with plain HTML and just a little bit of CSS so the major focus would be vanilla Javascript. I enjoyed creating this game. Really made me realize the value of building code through unit tests as I had to refactor the code multiple times."
   },
   {
     id:12,
@@ -117,7 +117,7 @@ const portfolioInfo = [
     isImg:true,
     title:"Check Out Some of My Projects",
     subTitle:"Bowling Calculator",
-    info:"Built with plain HTML, some CSS and vanilla javascript. This was my first heavly Javascript program I created. Definitely struggled through some pains. Required a number of code refactoring and even started from scratch a few times.In the end, I felt I defintely gained better grasp on Javascript and was pretty proud to finally complete it"
+    info:"Built with plain HTML, some CSS and vanilla javascript. This was my first heavily Javascript program I created. Definitely struggled through some pains. Required a number of code refactoring and even started from scratch a few times.In the end, I felt I definitely gained better grasp on Javascript and was pretty proud to finally complete it."
   },
   {
     id:13,
@@ -133,7 +133,7 @@ const portfolioInfo = [
     isImg:true,
     title:"Check Out Some of My Projects",
     subTitle:"SocialUp",
-    info:"Before going into web development, I was an entreprenuer looking to help people find true connections in their existing groups. Although, it didn't work out in the end, it lead me into a whole new world with coding. When I was able to create our site, I knew I would be able to to do this. Just takes determination and patience."
+    info:"Before going into web development, I was an entrepreneur looking to help people find true connections in their existing groups. Although, it didn't work out in the end, it led me into a whole new world with coding. When I was able to create our site, I knew I would be able to do this. Just takes determination and patience."
   },
   {
     id:15,
