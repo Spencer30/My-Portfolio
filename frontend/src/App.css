@@ -305,11 +305,6 @@ table{
     margin-bottom: 2.5rem;
 }
 
-/* .final-row {
-    background-color: lightgray;
-    padding-bottom: 5.5rem;
-} */
-
 .proj {
     padding-bottom: 1.5rem;
 }
@@ -329,8 +324,6 @@ table{
 }
 .hr-text:before {
       content: '';
-      /* // use the linear-gradient for the fading effect
-      // use a solid background color for a solid bar */
       background: linear-gradient(to right, transparent, #00dae6, transparent);
       position: absolute;
       left: 0;
@@ -384,9 +377,6 @@ table{
         height: 250px;
         width: 250px;
         margin-bottom:1rem;
-        /* padding: 0;
-        right:0;
-        top:0; */
     }
     .imgCon{
         margin-top: -2rem;
@@ -407,11 +397,6 @@ table{
         margin-bottom: 0;
         padding-bottom: 0;
     }
-
-    /* .aboutArticle {
-        margin-bottom: 2.5rem;
-        margin-top: -3.5rem;
-    } */
 
     .me {
         margin-top: 1.5rem;
