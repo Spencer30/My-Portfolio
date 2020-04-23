@@ -73,7 +73,7 @@ const portfolioInfo = [
   },
   {
     id:8,
-    img:require('../../images/snapshot1.PNG'),
+    img:require('../../images/snapshot3.png'),
     isImg:true,
     title:"I have an unique set of skills....",
     subTitle:"Current Progress",
@@ -81,11 +81,11 @@ const portfolioInfo = [
   },
   {
     id:9,
-    img:require('../../images/snapshot2.PNG'),
+    img:require('../../images/snapshot4.PNG'),
     isImg:true,
     title:"I have an unique set of skills....",
-    subTitle:"Current Progress",
-    info:"Currently, through LaunchCode, I'm learning Java. Java has introduced me to the concepts of OOP. My capstone project that I'm building will be using both React and Java. Still figuring what type of database that I will incorporate."
+    subTitle:"Current Learning",
+    info:"Through LaunchCode, I learned a good amount of Java. Java has introduced me to the concepts of OOP. It was a big challenge to grasp some of the concepts but I'm continuing to expand on that knowledge today."
   },
   {
     id:16,
