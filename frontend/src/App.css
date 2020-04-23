@@ -523,7 +523,7 @@ table{
         height: 100%;
     }
     
-}
+} */
 
 @media only screen 
   and (min-width: 1023px) 
@@ -574,4 +574,4 @@ button{
     100% {
       color: white;
     }
-  } */
+  } 
