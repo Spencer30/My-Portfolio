@@ -344,7 +344,7 @@ table{
     }
   
 
-/* @media only screen 
+@media only screen 
   and (min-device-width: 319px) 
   and (max-device-width: 480px) 
   and (-webkit-min-device-pixel-ratio: 1) {
@@ -365,9 +365,9 @@ table{
         font-size: 1.5rem;
     }
 
-    .skillList {
+    /* .skillList {
         flex-direction:column;
-    }
+    } */
 
     .nav-item {
         display: none;
@@ -459,7 +459,7 @@ table{
         height: 275px;
         width: 375px;
     }
-} */
+} 
 
 @media only screen 
   and (min-device-width: 319px) 
