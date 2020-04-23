@@ -372,6 +372,10 @@ table{
         font-size: 1.5rem;
     }
 
+    .skillList {
+        flex-direction:column;
+    }
+
     .nav-item {
         display: none;
     }
