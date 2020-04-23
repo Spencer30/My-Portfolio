@@ -66,7 +66,7 @@ function Skills(props) {
     </div>
     <h3 className="tableHeading">I'm comfortble working with these technologies:</h3>
     <div style={{display: 'flex', flexWrap:'wrap', justifyContent:'center'}}>
-      <ul className="skillList" style={{display: 'flex', flexWrap:'wrap', justifyContent:'flex-start'}}>
+      <ul className="skillList" style={{display: 'flex', flexWrap:'wrap', justifyContent:'center'}}>
         <li className="skillBullets"><span style={{color:'black'}} >HTML</span></li>
         <li className="skillBullets"><span style={{color:'black'}} >CSS</span></li>
         <li className="skillBullets"><span style={{color:'black'}} >JavaScript</span></li>
@@ -77,7 +77,7 @@ function Skills(props) {
     </div>
     <h3 className="tableHeading">I'm currently learning:</h3>
     <div style={{display: 'flex', flexWrap:'wrap', justifyContent:'center', marginBottom:'3.5rem'}}>
-      <ul className="skillList" style={{display: 'flex', flexWrap:'wrap', justifyContent:'flex-start'}}>
+      <ul className="skillList" style={{display: 'flex', flexWrap:'wrap', justifyContent:'center'}}>
         <li className="skillBullets"><span style={{color:'black'}} >React Native</span></li>
         <li className="skillBullets"><span style={{color:'black'}} >Redux</span></li>
         <li className="skillBullets"><span style={{color:'black'}} >Java</span></li>
