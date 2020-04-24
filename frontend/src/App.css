@@ -575,3 +575,12 @@ button{
       color: white;
     }
   } 
+
+  .launchLink {
+    color:rgb(33, 37, 41);
+    text-decoration: underline;
+  }
+
+  .launchLink:hover{
+    color:aqua;
+  }
