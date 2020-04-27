@@ -88,6 +88,14 @@ const portfolioInfo = [
     info:"Through LaunchCode, I learned a good amount of Java. Java has introduced me to the concepts of OOP. It was a big challenge to grasp some of the concepts but I'm continuing to expand on that knowledge today."
   },
   {
+    id:17,
+    img:require('../../images/video_poker.PNG'),
+    isImg:true,
+    title:"Check Out Some of My Projects",
+    subTitle:"Video Poker",
+    info:"I've been trying to keep my React and JavaScript skills sharp while I'm actively looking for jobs. My mom likes to play video poker so I decided to build her a website that would mimic what she would see at a casino. Built with React and Node."
+  },
+  {
     id:16,
     img:require('../../images/bowlingBuddy.PNG'),
     isImg:true,

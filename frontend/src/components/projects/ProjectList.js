@@ -1,5 +1,12 @@
 const projects = [
   {
+    id: 15,
+    title: 'Video Poker',
+    description: 'Trying to keep my React and Javascript skills fresh. Play video poker online. Built with a React frontend and node backend.',
+    img: require('../../images/video_poker.PNG'),
+    link: 'https://play-video-poker.herokuapp.com/'
+  },
+  {
     id: 14,
     title: 'Bowling Buddy',
     description: 'First big full stack application. Built with React, Node and SQL database. Keep track of your bowling scores and stats. Mobile first design.',

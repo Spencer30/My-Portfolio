@@ -1,6 +1,4 @@
 import React from "react";
-import Skill from "../skills/Skill"
-import { makeStyles } from '@material-ui/core/styles';
 // import Table from '@material-ui/core/Table';
 // import TableBody from '@material-ui/core/TableBody';
 // import TableCell from '@material-ui/core/TableCell';
@@ -8,15 +6,15 @@ import { makeStyles } from '@material-ui/core/styles';
 // import TableRow from '@material-ui/core/TableRow';
 // import Paper from '@material-ui/core/Paper';
 
-const useStyles = makeStyles({
-  table: {
-    minWidth: 650,
-  },
-});
+// const useStyles = makeStyles({
+//   table: {
+//     minWidth: 650,
+//   },
+// });
 
-function createData(name, emptyspac1, emptyspac2, emptyspac3, star) {
-  return { name, emptyspac1, emptyspac2, emptyspac3, star };
-}
+// function createData(name, emptyspac1, emptyspac2, emptyspac3, star) {
+//   return { name, emptyspac1, emptyspac2, emptyspac3, star };
+// }
 
 // const rows = [
 //   createData('HTML', '', '', '',<Skill stars={4} />),

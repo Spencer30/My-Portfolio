@@ -31,7 +31,7 @@ function AboutMe(props) {
             <br /> */}
             <h4>LaunchCode Graduate</h4>
             <p>
-            I graduated from LaunchCode's LC101 program and am currently in their LiftOff program. <a className="launchLink" href="https://www.launchcode.org/about" target="_blank">LaunchCode</a> is a national nonprofit offering free tech education and job placement opportunities. Their goal is to bring new people from all backgrounds into the tech field and reshape the way employers think about hiring. LaunchCode is highly competitive. The amount of value and education the program offers is exceptional and I'm very thankful to get that experience. My goal is to take my knowledge and apply it to the real world.
+            I graduated from LaunchCode's LC101 program and am currently in their LiftOff program. <a className="launchLink" href="https://www.launchcode.org/about" target="_blank" rel="noopener noreferrer">LaunchCode</a> is a national nonprofit offering free tech education and job placement opportunities. Their goal is to bring new people from all backgrounds into the tech field and reshape the way employers think about hiring. LaunchCode is highly competitive. The amount of value and education the program offers is exceptional and I'm very thankful to get that experience. My goal is to take my knowledge and apply it to the real world.
             </p>
             <br />
             <h4>What I'm Looking For</h4>
