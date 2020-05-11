@@ -46,7 +46,7 @@ const projects = [
     title: 'SocialUp',
     description: 'Created our website for our startup at the time. Built wiht node, ejs, express, body-parser, mongoDB and mongoose.',
     img: require('../../images/socialup.PNG'),
-    link: 'http://www.getsocialup.com/'
+    link: 'https://socialupsite.herokuapp.com/'
   },
   // {
   //   id: 8,
